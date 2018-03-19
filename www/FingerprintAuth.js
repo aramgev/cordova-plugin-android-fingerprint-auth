@@ -45,7 +45,7 @@ FingerprintAuth.prototype.decrypt = function (params, successCallback, errorCall
     );
 };
 
-FingerprintAuth.prototype.delete = function (params, successCallback, errorCallback) {
+FingerprintAuth.prototype.deleteKey = function (params, successCallback, errorCallback) {
     cordova.exec(
         successCallback,
         errorCallback,
